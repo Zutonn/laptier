@@ -15,13 +15,15 @@
 ## 📸 Tampilan Aplikasi
 
 | Halaman Beranda & Katalog | Halaman Tier List & Perbandingan |
-| :<img width="1595" height="3064" alt="laptier gt tc_index php" src="https://github.com/user-attachments/assets/2f144c83-5565-4be7-8b2a-b2af77582a16" />: | :<img width="1595" height="1730" alt="laptier gt tc_tier-list php" src="https://github.com/user-attachments/assets/cf6d3dd4-7741-4d1f-afdf-f56d5caf03c7" />
-: |
-| *Tarik & lepas screenshot beranda di sini* | *Tarik & lepas screenshot tier list di sini* |
+| :---: | :---: |
+| <img width="1595" height="1730" alt="laptier gt tc_tier-list php" src="https://github.com/user-attachments/assets/546de9db-f7de-48aa-8783-672ed423d83b" /> |
+| <img width="1595" height="3064" alt="laptier gt tc_index php" src="https://github.com/user-attachments/assets/e3d527fa-0466-4f07-86b7-f2260b9ace7d" /> |
 
 | Halaman Rekomendasi | Dashboard Admin |
+
 | :---: | :---: |
-| *Tarik & lepas screenshot rekomendasi di sini* | *Tarik & lepas screenshot panel admin di sini* |
+| <img width="1595" height="2506" alt="laptier gt tc_katalog php" src="https://github.com/user-attachments/assets/5ad53558-6c7d-4581-9196-78a7c8f0acb6" />
+ | <img width="1595" height="1216" alt="laptier gt tc_admin_index php" src="https://github.com/user-attachments/assets/66390863-5628-408a-8ee1-6dfa4b8e173e" /> |
 
 ---
 
@@ -70,4 +72,4 @@ laptier/
 ├── rekomendasi.php         # Halaman rekomendasi laptop
 ├── panduan.php             # Halaman panduan pengguna
 ├── MULAI_DI_SINI.txt       # Catatan panduan cepat penggunaan awal
-└── README.md               # Dokumentasi repositori<img width="1595" height="3064" alt="laptier gt tc_index php" src="https://github.com/user-attachments/assets/4e7fd9b9-58b4-433b-ab7a-fa764a533e3e" />
+└── README.md               # Dokumentasi repositori
