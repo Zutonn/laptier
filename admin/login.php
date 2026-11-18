@@ -1,0 +1,14 @@
+<?php
+require_once __DIR__ . '/../includes/bootstrap.php';
+if (!empty($_SESSION['admin_id'])) redirect('index.php');
+$error = flash('error') ?? '';
+$success = flash('success') ?? '';
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+  verify_csrf(); $login = trim((string)($_POST['login'] ?? '')); $password = (string)($_POST['password'] ?? '');
+  $stmt = db()->prepare('SELECT id,username,email,password_hash FROM admins WHERE username=:u OR email=:e LIMIT 1'); $stmt->execute(['u'=>$login,'e'=>$login]); $user=$stmt->fetch();
+  if ($user && password_verify($password, $user['password_hash'])) {
+    session_regenerate_id(true); $_SESSION['admin_id']=(int)$user['id']; $_SESSION['admin_username']=$user['username'];
+    db()->prepare('UPDATE admins SET last_login=NOW() WHERE id=:id')->execute(['id'=>$user['id']]); redirect('index.php');
+  } else { $error='Username/email atau password tidak cocok.'; }
+}
+?><!doctype html><html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Login Admin — LapTier</title><link rel="icon" href="../assets/images/logo-mark.svg" type="image/svg+xml"><link rel="stylesheet" href="../assets/css/style.css?v=1.0.0"></head><body class="admin-body"><div class="admin-login-wrap"><section class="admin-login-art"><a class="brand" href="../index.php"><span class="brand-mark" style="background:var(--lime);color:var(--ink)">L<span>/</span>T</span><span class="brand-word" style="color:white">LapTier<small style="color:#a7afaa">CONTROL ROOM / 01</small></span></a><div><div class="eyebrow">Private workspace · Authorized only</div><h1>Data rapi.<br>Keputusan<br><em>lebih masuk akal.</em></h1><p>Dashboard pengelolaan katalog LapTier. Atur informasi produk di sini, bukan dengan mengedit setiap halaman manual.</p></div><div class="mono-label">Manage the details. Keep the noise out.</div></section><section class="admin-login-panel"><span class="mono-label">Login / Admin access</span><h2>Selamat datang kembali.</h2><p>Masuk untuk mengelola katalog dan pengaturan website.</p><?php if($success!==''): ?><div class="alert"><?= h($success) ?></div><?php endif; ?><?php if($error!==''): ?><div class="alert error"><?= h($error) ?></div><?php endif; ?><form method="post" autocomplete="on"><?= csrf_field() ?><div class="form-row"><label for="login">Username atau email</label><input class="field" id="login" name="login" value="<?= h($_POST['login']??'') ?>" required autocomplete="username"></div><div class="form-row"><label for="password">Password</label><input class="field" id="password" name="password" type="password" required autocomplete="current-password"></div><button class="button button-dark" type="submit">Masuk ke dashboard <span>↗</span></button></form><a class="back-link" href="../index.php">← Kembali ke website publik</a></section></div></body></html>
