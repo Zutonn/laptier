@@ -21,7 +21,7 @@
 
 | Halaman Rekomendasi | Dashboard Admin |
 | :---: | :---: |
-| <img width="1595" height="1236" alt="laptier gt tc_rekomendasi php" src="https://github.com/user-attachments/assets/bf4a8b8d-8aa3-4f29-bb27-6b5da5e8f384" /> | <img width="1595" height="2506" alt="laptier gt tc_katalog php" src="https://github.com/user-attachments/assets/5ad53558-6c7d-4581-9196-78a7c8f0acb6" /> |
+| <img width="1595" height="1236" alt="laptier gt tc_rekomendasi php" src="https://github.com/user-attachments/assets/bf4a8b8d-8aa3-4f29-bb27-6b5da5e8f384" /> | <img width="1595" height="1216" alt="laptier gt tc_admin_index php" src="https://github.com/user-attachments/assets/a21e0364-040f-4a6b-b301-ae8b9ef44698" /> |
 
 ---
 
