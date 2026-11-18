@@ -16,8 +16,8 @@
 
 | Halaman Beranda & Katalog | Halaman Tier List & Perbandingan |
 | :---: | :---: |
-| <img width="1595" height="3064" alt="laptier gt tc_index php" src="https://github.com/user-attachments/assets/e3d527fa-0466-4f07-86b7-f2260b9ace7d" /> | <img width="1595" height="3064" alt="laptier gt tc_index php" src="https://github.com/user-attachments/assets/e3d527fa-0466-4f07-86b7-f2260b9ace7d" /> |
-| <img width="1595" height="1730" alt="laptier gt tc_tier-list php" src="https://github.com/user-attachments/assets/546de9db-f7de-48aa-8783-672ed423d83b" />  |
+| <img width="1595" height="3064" alt="laptier gt tc_index php" src="https://github.com/user-attachments/assets/e3d527fa-0466-4f07-86b7-f2260b9ace7d" /> | <img width="1595" height="1730" alt="laptier gt tc_tier-list php" src="https://github.com/user-attachments/assets/546de9db-f7de-48aa-8783-672ed423d83b" /> |
+| <img width="1595" height="2506" alt="laptier gt tc_katalog php" src="https://github.com/user-attachments/assets/ff7352ab-aada-4bd8-920b-41c90d079dbe" /> | <img width="1595" height="1709" alt="laptier gt tc_bandingkan php_ids=5%2C1%2C2%2C6" src="https://github.com/user-attachments/assets/563e8cf2-2ed8-4a21-85bc-8884e99c9f46" /> |
 
 | Halaman Rekomendasi | Dashboard Admin |
 
