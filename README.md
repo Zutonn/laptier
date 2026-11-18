@@ -20,7 +20,6 @@
 | <img width="1595" height="2506" alt="laptier gt tc_katalog php" src="https://github.com/user-attachments/assets/ff7352ab-aada-4bd8-920b-41c90d079dbe" /> | <img width="1595" height="1709" alt="laptier gt tc_bandingkan php_ids=5%2C1%2C2%2C6" src="https://github.com/user-attachments/assets/563e8cf2-2ed8-4a21-85bc-8884e99c9f46" /> |
 
 | Halaman Rekomendasi | Dashboard Admin |
-
 | :---: | :---: |
 | <img width="1595" height="2506" alt="laptier gt tc_katalog php" src="https://github.com/user-attachments/assets/5ad53558-6c7d-4581-9196-78a7c8f0acb6" /> |
 | <img width="1595" height="1216" alt="laptier gt tc_admin_index php" src="https://github.com/user-attachments/assets/66390863-5628-408a-8ee1-6dfa4b8e173e" /> |
