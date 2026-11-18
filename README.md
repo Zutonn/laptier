@@ -6,21 +6,22 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-**LapTier** adalah aplikasi web berbasis PHP dan SQL yang dirancang untuk membantu pengguna mencari, membandingkan, dan memilih laptop sesuai kebutuhan. Dilengkapi dengan fitur pemeringkatan (*tier list*), perbandingan spesifikasi berdampingan, sistem rekomendasi, serta panel administrator untuk pengelolaan data produk secara dinamis.
+**LapTier** adalah aplikasi web berbasis PHP dan SQL yang dirancang untuk membantu pengguna mencari, membandingkan, dan memilih laptop sesuai kebutuhan. Dilengkapi dengan fitur pemeringkatan (*tier list*), perbandingan spesifikasi berdampingan, halaman rekomendasi, serta panel administrator untuk pengelolaan data produk secara dinamis.
+
+🌐 **Live Demo:** [Kunjungi Website LapTier](https://link-hosting-anda.com)
 
 ---
 
 ## 📸 Tampilan Aplikasi
 
-> *Tips: Ganti tautan gambar di bawah ini dengan screenshot tampilan website Anda (bisa dengan membuat folder `screenshots/` di repositori atau drag-and-drop gambar langsung saat mengedit README di GitHub).*
-
 | Halaman Beranda & Katalog | Halaman Tier List & Perbandingan |
-| :---: | :---: |
-| ![Beranda](screenshots/beranda.png) | ![Tier List](screenshots/tier-list.png) |
+| :<img width="1595" height="3064" alt="laptier gt tc_index php" src="https://github.com/user-attachments/assets/2f144c83-5565-4be7-8b2a-b2af77582a16" />: | :<img width="1595" height="1730" alt="laptier gt tc_tier-list php" src="https://github.com/user-attachments/assets/cf6d3dd4-7741-4d1f-afdf-f56d5caf03c7" />
+: |
+| *Tarik & lepas screenshot beranda di sini* | *Tarik & lepas screenshot tier list di sini* |
 
 | Halaman Rekomendasi | Dashboard Admin |
 | :---: | :---: |
-| ![Rekomendasi](screenshots/rekomendasi.png) | ![Admin Panel](screenshots/admin.png) |
+| *Tarik & lepas screenshot rekomendasi di sini* | *Tarik & lepas screenshot panel admin di sini* |
 
 ---
 
@@ -28,7 +29,7 @@
 
 ### 🌐 Halaman Publik (Pengunjung)
 * **Beranda (`index.php`)** — Ringkasan informasi dan akses cepat ke seluruh fitur utama.
-* **Katalog Laptop (`katalog.php`)** — Daftar koleksi laptop yang tersedia lengkap dengan pencarian/filter.
+* **Katalog Laptop (`katalog.php`)** — Daftar koleksi laptop yang tersedia.
 * **Detail Produk (`detail.php`)** — Informasi spesifikasi lengkap untuk setiap unit laptop.
 * **Tier List (`tier-list.php`)** — Pengelompokan dan pemeringkatan laptop berdasarkan tingkatan (*tier*).
 * **Bandingkan Laptop (`bandingkan.php`)** — Komparasi spesifikasi antar-unit laptop secara berdampingan.
@@ -69,4 +70,4 @@ laptier/
 ├── rekomendasi.php         # Halaman rekomendasi laptop
 ├── panduan.php             # Halaman panduan pengguna
 ├── MULAI_DI_SINI.txt       # Catatan panduan cepat penggunaan awal
-└── README.md               # Dokumentasi repositori
+└── README.md               # Dokumentasi repositori<img width="1595" height="3064" alt="laptier gt tc_index php" src="https://github.com/user-attachments/assets/4e7fd9b9-58b4-433b-ab7a-fa764a533e3e" />
