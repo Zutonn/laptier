@@ -10,7 +10,7 @@
 
 🌐 **Live Demo:** [Kunjungi Website LapTier] (https://laptier.gt.tc/)
 
-🌐 **Akses Dashboard Admin:** [Kunjungi Website LapTier]((https://laptier.gt.tc/admin/login.php)/))
+🌐 **Akses Dashboard Admin:** [Kunjungi Website LapTier] (https://laptier.gt.tc/admin/login.php)/)
 
 🌐 **Akun Admin:** [Kunjungi Website LapTier](( Username : mpell Pw : 123456789101112 ))
 
