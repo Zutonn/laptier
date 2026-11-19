@@ -8,9 +8,10 @@
 
 **LapTier** adalah aplikasi web berbasis PHP dan SQL yang dirancang untuk membantu pengguna mencari, membandingkan, dan memilih laptop sesuai kebutuhan. Dilengkapi dengan fitur pemeringkatan (*tier list*), perbandingan spesifikasi berdampingan, halaman rekomendasi, serta panel administrator untuk pengelolaan data produk secara dinamis.
 
-| 🌐 **Live Demo:** [Kunjungi Website LapTier]((https://laptier.gt.tc/)) |
-🌐 **Live Demo:** [Kunjungi Website LapTier] (https://laptier.gt.tc/)
-| 🌐 **Akses Dashboard Admin:** [Kunjungi Website LapTier]((https://laptier.gt.tc/admin/login.php)/)) |
+🌐 **Live Demo:** [Kunjungi Website LapTier]((https://laptier.gt.tc/)) 
+
+🌐 **Akses Dashboard Admin:** [Kunjungi Website LapTier]((https://laptier.gt.tc/admin/login.php)/))
+
 🌐 **Akun Admin:** [Kunjungi Website LapTier](( Username : mpell Pw : 123456789101112 ))
 
 ---
